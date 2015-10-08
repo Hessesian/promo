@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PressTest</string>
+    <string name="title_startup_detail">Startup Detail</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_connection">No connection, loading from cache</string>
+</resources>

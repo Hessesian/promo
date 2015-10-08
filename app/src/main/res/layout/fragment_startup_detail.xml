@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="80dp"
+        android:background="#c2c2c2"
+
+        android:adjustViewBounds="true"
+        android:id="@+id/fragment_startup_detail_icon" />
+    <ScrollView
+        android:id="@+id/fragment_startup_detail_scroll_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_startup_detail_rating">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_big"
+        android:text="Sample Name"
+
+        android:id="@+id/fragment_startup_detail_description" />
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/fragment_startup_detail_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0902 286 298"
+        android:layout_below="@+id/fragment_startup_detail_icon"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>
